@@ -1,0 +1,170 @@
+/* Login & Register Pages */
+.login-page, 
+.register-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+}
+
+.welcome-div {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form, 
+.register-form {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  color: black;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.login-form input, 
+.register-form input, 
+.login-form textarea, 
+.register-form textarea {
+  width: 100%;
+}
+
+.login-form button, 
+.register-form button {
+  background: #3f51b5;
+  color: white;
+  margin-top: 10px;
+}
+
+.login-form button:hover, 
+.register-form button:hover {
+  background: #303f9f;
+}
+
+/* Dashboard */
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+/* Left sidebar */
+.dashboard-left {
+  width: 20%;
+  background: #3f51b5;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.dashboard-left button {
+  background: white;
+  color: #3f51b5;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 12px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.dashboard-left button:hover {
+  background: #303f9f;
+  color: white;
+}
+
+/* Right content */
+.dashboard-right {
+  width: 80%;
+  padding: 20px;
+  overflow-y: auto;
+  background: #f9f9f9;
+}
+
+/* Add Notice */
+.add-notice {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-notice h2 {
+  margin-bottom: 15px;
+}
+
+.add-notice input, 
+.add-notice textarea {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.add-notice textarea {
+  height: 100px;
+}
+
+.notice-btns {
+  display: flex;
+  gap: 10px;
+}
+
+.notice-btns button {
+  flex: 1;
+  background: #5c6bc0;
+  color: white;
+}
+
+.notice-btns button:hover {
+  background: #3f51b5;
+}
+
+/* Notice List */
+.notice-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.notice-card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.notice-card h3 {
+  margin-bottom: 5px;
+}
+
+.notice-card p {
+  margin-bottom: 5px;
+}
+
+.notice-card-btns {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.notice-card-btns button {
+  flex: 1;
+  background: #3f51b5;
+  color: white;
+}
+
+.notice-card-btns button:hover {
+  background: #5c6bc0;
+}
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 2px;
+  margin-bottom: 8px;
+  text-align: left;
+}
